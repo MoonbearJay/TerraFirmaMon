@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"cobblemon:ancient_ultra_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:heavy_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:poke_rod"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create:crushed_raw_iron"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
