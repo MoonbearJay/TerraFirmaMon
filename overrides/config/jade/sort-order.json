@@ -25,6 +25,9 @@
   "dynamictrees:rooty": null,
   "dynamictrees:rooty_water": null,
   "ftbquests:barrier": null,
+  "immersiveengineering:multiblock_icon": null,
+  "immersiveengineering:multiblock_inventory": null,
+  "immersiveengineering:multiblock_tank": null,
   "jade:block_face": null,
   "jade:block_properties": null,
   "jade:block_states": null,
@@ -141,5 +144,6 @@
   "tfc:wall_torch": null,
   "tfc:water_wheel": null,
   "tfc:wild_animal": null,
-  "tfc:windmill": null
+  "tfc:windmill": null,
+  "waystones:waystone": null
 }

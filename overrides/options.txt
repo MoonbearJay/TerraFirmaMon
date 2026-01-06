@@ -6,7 +6,7 @@ entityDistanceScaling:1.0
 entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
-fov:0.275
+fov:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 glintSpeed:0.5
@@ -167,6 +167,9 @@ key_key.corpse.death_history:key.keyboard.u
 key_tfc.key.place_block:key.keyboard.v
 key_tfc.key.cycle_chisel_mode:key.keyboard.m
 key_tfc.key.stack_food:key.keyboard.i
+key_key.immersiveengineering.magnetEquip:key.keyboard.s
+key_key.immersiveengineering.railgunZoom:key.mouse.middle
+key_key.immersiveengineering.chemthrowerSwitch:key.keyboard.unknown
 key_key.jade.config:key.keyboard.keypad.0
 key_key.jade.show_overlay:key.keyboard.keypad.1
 key_key.jade.toggle_liquid:key.keyboard.keypad.2

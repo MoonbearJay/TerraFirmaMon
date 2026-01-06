@@ -11,8 +11,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "TerraFirmaMon",
-  "version": "0.1.0",
+  "name": "TerraFirmaMon Dev",
+  "version": "0.3.0",
   "author": "MoonbearJay",
   "files": [
     {
@@ -40,8 +40,20 @@
       "isLocked": false
     },
     {
+      "projectID": 830886,
+      "fileID": 7267802,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 248787,
       "fileID": 6616291,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1396119,
+      "fileID": 7324760,
       "required": true,
       "isLocked": false
     },
@@ -71,13 +83,19 @@
     },
     {
       "projectID": 388172,
-      "fileID": 7023453,
+      "fileID": 7415496,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 976014,
       "fileID": 7248473,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 245755,
+      "fileID": 7354464,
       "required": true,
       "isLocked": false
     },
@@ -96,6 +114,12 @@
     {
       "projectID": 1333024,
       "fileID": 6941615,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 1091993,
+      "fileID": 7367738,
       "required": true,
       "isLocked": false
     },
@@ -119,7 +143,7 @@
     },
     {
       "projectID": 1189523,
-      "fileID": 7368592,
+      "fileID": 7420429,
       "required": true,
       "isLocked": false
     },
@@ -197,19 +221,13 @@
     },
     {
       "projectID": 531761,
-      "fileID": 7264790,
+      "fileID": 7420963,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1295910,
       "fileID": 7393450,
-      "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 252818,
-      "fileID": 7325233,
       "required": true,
       "isLocked": false
     },
@@ -262,6 +280,18 @@
       "isLocked": false
     },
     {
+      "projectID": 1405644,
+      "fileID": 7339627,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 231951,
+      "fileID": 6733669,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 289412,
       "fileID": 7324136,
       "required": true,
@@ -298,6 +328,12 @@
       "isLocked": false
     },
     {
+      "projectID": 361276,
+      "fileID": 7411234,
+      "required": true,
+      "isLocked": false
+    },
+    {
       "projectID": 314906,
       "fileID": 7157142,
       "required": true,
@@ -305,7 +341,7 @@
     },
     {
       "projectID": 570630,
-      "fileID": 7105999,
+      "fileID": 7408387,
       "required": true,
       "isLocked": false
     },
@@ -335,13 +371,7 @@
     },
     {
       "projectID": 854949,
-      "fileID": 7358526,
-      "required": true,
-      "isLocked": false
-    },
-    {
-      "projectID": 60089,
-      "fileID": 5637846,
+      "fileID": 7419385,
       "required": true,
       "isLocked": false
     },
@@ -352,20 +382,20 @@
       "isLocked": false
     },
     {
-      "projectID": 238222,
-      "fileID": 7391682,
+      "projectID": 60089,
+      "fileID": 5637846,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 1168140,
-      "fileID": 7342687,
+      "fileID": 7415835,
       "required": true,
       "isLocked": false
     },
     {
-      "projectID": 324717,
-      "fileID": 6853386,
+      "projectID": 238222,
+      "fileID": 7420587,
       "required": true,
       "isLocked": false
     },
@@ -376,14 +406,20 @@
       "isLocked": false
     },
     {
-      "projectID": 404465,
-      "fileID": 7312258,
+      "projectID": 324717,
+      "fileID": 6853386,
       "required": true,
       "isLocked": false
     },
     {
       "projectID": 532610,
       "fileID": 6785734,
+      "required": true,
+      "isLocked": false
+    },
+    {
+      "projectID": 404465,
+      "fileID": 7420412,
       "required": true,
       "isLocked": false
     },

@@ -1,6 +1,6 @@
 {
-  "minBreedingTimeInTicks": 8000,
-  "maxBreedingTimeInTicks": 14000,
+  "minBreedingTimeInTicks": 2000,
+  "maxBreedingTimeInTicks": 4000,
   "mirrorHerbTimeInTicks": 600,
   "eggHatchMultiplier": 1.0,
   "shinyMethod": {

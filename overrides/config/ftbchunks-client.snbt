@@ -133,66 +133,75 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"tfc:crayfish": true
-			"tfc:crocodile": true
-			"tfc:dolphin": true
-			"tfc:donkey": true
-			"tfc:alpaca": true
-			"minecraft:skeleton": true
-			"tfc:musk_ox": true
-			"tfc:moose": true
-			"minecraft:bee": true
-			"tfc:crappie": true
-			"tfc:isopod": true
-			"tfc:rabbit": true
-			"tfc:fox": true
-			"tfc:pheasant": true
-			"minecraft:slime": true
-			"tfc:chicken": true
-			"tfc:rainbow_trout": true
-			"tfc:lake_trout": true
-			"tfc:yak": true
-			"tfc:smallmouth_bass": true
-			"cobblemon:pokemon": true
-			"tfc:sabertooth": true
-			"tfc:orca": true
-			"tfc:tiger": true
-			"tfc:direwolf": true
-			"tfc:deer": true
-			"tfc:grouse": true
-			"minecraft:husk": true
 			"tfc:horseshoe_crab": true
-			"tfc:quail": true
-			"tfc:cod": true
+			"tfc:tiger": true
+			"minecraft:husk": true
 			"tfc:frog": true
-			"tfc:goat": true
-			"minecraft:creeper": true
-			"tfc:polar_bear": true
-			"tfc:turkey": true
 			"tfc:largemouth_bass": true
-			"tfc:lobster": true
-			"tfc:grizzly_bear": true
-			"tfc:duck": true
-			"tfc:gazelle": true
-			"tfc:sheep": true
-			"minecraft:drowned": true
-			"tfc:black_bear": true
-			"tfc:wildebeest": true
-			"tfc:wolf": true
-			"tfc:pig": true
-			"tfc:cow": true
-			"tfc:bison": true
-			"tfc:horse": true
-			"tfc:bluegill": true
+			"tfc:donkey": true
+			"tfc:crappie": true
 			"minecraft:spider": true
-			"tfc:squid": true
-			"tfc:pufferfish": true
-			"tfc:octopoteuthis": true
-			"tfc:caribou": true
+			"tfc:duck": true
+			"tfc:quail": true
+			"tfc:lake_trout": true
+			"tfc:dolphin": true
+			"tfc:sabertooth": true
+			"minecraft:bat": true
 			"tfc:boar": true
-			"tfc:salmon": true
+			"tfc:crayfish": true
+			"tfc:bison": true
+			"tfc:polar_bear": true
+			"tfc:yak": true
+			"minecraft:cow": true
+			"tfc:caribou": true
 			"minecraft:zombie": true
+			"tfc:musk_ox": true
+			"tfc:turkey": true
 			"tfc:rat": true
+			"tfc:moose": true
+			"tfc:orca": true
+			"cobblemon:pokemon": true
+			"minecraft:cat": true
+			"tfc:rainbow_trout": true
+			"minecraft:skeleton": true
+			"tfc:gazelle": true
+			"minecraft:creeper": true
+			"tfc:chicken": true
+			"tfc:cod": true
+			"tfc:horse": true
+			"tfc:grouse": true
+			"tfc:lobster": true
+			"minecraft:slime": true
+			"tfc:squid": true
+			"tfc:direwolf": true
+			"minecraft:pig": true
+			"tfc:sheep": true
+			"minecraft:villager": true
+			"minecraft:enderman": true
+			"tfc:pig": true
+			"tfc:fox": true
+			"minecraft:horse": true
+			"tfc:alpaca": true
+			"tfc:goat": true
+			"minecraft:drowned": true
+			"tfc:deer": true
+			"tfc:pheasant": true
+			"tfc:black_bear": true
+			"tfc:pufferfish": true
+			"tfc:bluegill": true
+			"tfc:cow": true
+			"tfc:grizzly_bear": true
+			"tfc:isopod": true
+			"tfc:wolf": true
+			"tfc:salmon": true
+			"tfc:crocodile": true
+			"tfc:wildebeest": true
+			"tfc:smallmouth_bass": true
+			"minecraft:sheep": true
+			"tfc:rabbit": true
+			"minecraft:bee": true
+			"tfc:lion": true
+			"tfc:octopoteuthis": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)

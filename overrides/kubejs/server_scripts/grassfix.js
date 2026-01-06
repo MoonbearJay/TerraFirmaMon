@@ -1,0 +1,2 @@
+ServerEvents.tags('block', event => {
+    event.add('minecraft:dirt', 'tfc:grass/entisol', 'tfc:grass/aridisol', 'tfc:grass/oxisol', 'tfc:grass/fluvisol', 'tfc:grass/andisol', 'tfc:grass/podzol', 'tfc:grass/alfisol', 'tfc:grass/mollisol', )})

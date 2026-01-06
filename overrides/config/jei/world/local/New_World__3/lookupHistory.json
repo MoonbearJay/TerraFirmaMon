@@ -1,4 +1,11 @@
 [
   {"version":1},
+  {"ingredient":{"id":"tfc:metal/pig_iron"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:metal/ingot/pig_iron","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:metal/ingot/high_carbon_steel","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:metal/ingot/steel","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:haban_berry","components":{"tfc:food":{"creation_date":144000}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:stone_pickaxe"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:rooted_dirt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cobblemon:black_apricorn"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

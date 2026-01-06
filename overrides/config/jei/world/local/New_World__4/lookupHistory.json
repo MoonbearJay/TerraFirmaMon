@@ -1,5 +1,8 @@
 [
   {"version":1},
+  {"ingredient":{"id":"minecraft:bone_meal"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:bone_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:moss_block"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cobblemon:payapa_berry","components":{"tfc:food":{"creation_date":144000}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cobblemon:persim_berry","components":{"tfc:food":{"creation_date":144000}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"cobblemon:oran_berry","components":{"tfc:food":{"creation_date":144000}}},"type":"item_stack","bookmarkType":"INGREDIENT"}
