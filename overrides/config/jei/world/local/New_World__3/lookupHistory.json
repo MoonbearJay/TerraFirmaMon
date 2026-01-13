@@ -1,5 +1,7 @@
 [
   {"version":1},
+  {"ingredient":{"id":"tfc:rock/magma/basalt"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"tfc:rock/magma/rhyolite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:metal/pig_iron"},"type":"fluid_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:metal/ingot/pig_iron","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:metal/ingot/high_carbon_steel","components":{"tfc:heat":{}}},"type":"item_stack","bookmarkType":"INGREDIENT"},

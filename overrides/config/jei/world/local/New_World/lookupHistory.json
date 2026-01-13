@@ -1,5 +1,6 @@
 [
   {"version":1},
+  {"ingredient":{"id":"tfc:cake"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:pumpkin","components":{"tfc:food":{"traits":["tfc:wild"],"creation_date":271227}}},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"tfc:plant/prickly_pear"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"minecraft:iron_nugget"},"type":"item_stack","bookmarkType":"INGREDIENT"},
