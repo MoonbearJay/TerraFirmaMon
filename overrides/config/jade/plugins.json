@@ -52,6 +52,46 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "jade_access": {
+    "held_item": true,
+    "sign": true,
+    "block": true,
+    "entity": true,
+    "entity_variant": true
+  },
+  "cobblemonraiddens": {
+    "raid_crystal": true
+  },
+  "ftbquests": {
+    "barrier": true
+  },
+  "cobblemonintegrations": {
+    "healer": true,
+    "campfire_pot": true,
+    "fossil_analyzer": true,
+    "pokemon_entity": true,
+    "berry_bush": true
+  },
+  "immersiveengineering": {
+    "multiblock_icon": true
+  },
+  "createsifter": {
+    "data": true
+  },
+  "jade": {
+    "coordinates.rel": false,
+    "registry_name.special": false,
+    "block_states": false,
+    "distance": false,
+    "block_face": false,
+    "coordinates": false,
+    "registry_name": "OFF",
+    "block_properties": false,
+    "mod_name": true
+  },
+  "balm": {
+    "jade": true
+  },
   "firmalife": {
     "barrel_press": true,
     "keg_sub": true,
@@ -91,7 +131,6 @@
     "windmill": true,
     "placed_item": true,
     "ocelot": true,
-    "shelf": true,
     "candle_cake": true,
     "horse": true,
     "clutch": true,
@@ -130,47 +169,13 @@
     "anemometer": true,
     "ingot_pile": true
   },
-  "jade_access": {
-    "held_item": true,
-    "sign": true,
-    "block": true,
-    "entity": true,
-    "entity_variant": true
-  },
-  "cobblemonraiddens": {
-    "raid_crystal": true
-  },
-  "ftbquests": {
-    "barrier": true
-  },
-  "cobblemonintegrations": {
-    "healer": true,
-    "campfire_pot": true,
-    "fossil_analyzer": true,
-    "pokemon_entity": true,
-    "berry_bush": true
-  },
-  "immersiveengineering": {
-    "multiblock_icon": true
-  },
-  "jade": {
-    "coordinates.rel": false,
-    "registry_name.special": false,
-    "block_states": false,
-    "distance": false,
-    "block_face": false,
-    "coordinates": false,
-    "registry_name": "OFF",
-    "block_properties": false,
-    "mod_name": true
+  "supplementaries": {
+    "hat_stand": true
   },
   "waystones": {
     "waystone": true
   },
   "corpse": {
     "corpse": true
-  },
-  "balm": {
-    "jade": true
   }
 }

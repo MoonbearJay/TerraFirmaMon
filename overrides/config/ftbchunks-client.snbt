@@ -55,6 +55,11 @@
 		# Default: false
 		chunk_grid: false
 		
+		# Claim mode for the chunk claiming screen
+		# Default: "freehand"
+		# Valid values: "freehand", "rectangle", "circle"
+		claim_mode: "freehand"
+		
 		# Show claimed chunks on the map
 		# Default: true
 		claimed_chunks_on_map: true
@@ -133,75 +138,83 @@
 		# Default: true
 		entity_heads: true
 		entity_icon: {
-			"tfc:deer": true
-			"tfc:frog": true
-			"tfc:horse": true
-			"minecraft:sheep": true
-			"tfc:turkey": true
-			"tfc:grouse": true
-			"tfc:pig": true
-			"tfc:wildebeest": true
-			"tfc:crocodile": true
-			"tfc:caribou": true
-			"tfc:gazelle": true
-			"tfc:dolphin": true
-			"minecraft:husk": true
-			"minecraft:skeleton": true
-			"tfc:bluegill": true
-			"tfc:musk_ox": true
-			"tfc:fox": true
-			"tfc:horseshoe_crab": true
-			"minecraft:bat": true
-			"minecraft:cat": true
-			"tfc:lion": true
-			"tfc:moose": true
-			"tfc:yak": true
-			"tfc:alpaca": true
-			"minecraft:horse": true
-			"minecraft:bee": true
-			"tfc:rabbit": true
-			"tfc:goat": true
-			"tfc:sabertooth": true
-			"minecraft:cow": true
-			"cobblemon:pokemon": true
-			"tfc:isopod": true
-			"tfc:tiger": true
-			"tfc:sheep": true
-			"tfc:pufferfish": true
-			"tfc:chicken": true
-			"tfc:duck": true
-			"minecraft:spider": true
-			"minecraft:zombie": true
-			"tfc:crappie": true
 			"tfc:rat": true
-			"tfc:donkey": true
-			"tfc:orca": true
-			"tfc:boar": true
-			"minecraft:drowned": true
-			"minecraft:slime": true
-			"tfc:cow": true
-			"tfc:wolf": true
-			"tfc:grizzly_bear": true
-			"tfc:largemouth_bass": true
-			"tfc:rainbow_trout": true
-			"minecraft:pig": true
-			"tfc:octopoteuthis": true
-			"tfc:crayfish": true
-			"tfc:polar_bear": true
-			"tfc:smallmouth_bass": true
-			"tfc:bison": true
-			"tfc:direwolf": true
-			"tfc:squid": true
-			"minecraft:creeper": true
-			"minecraft:enderman": true
-			"tfc:quail": true
-			"tfc:black_bear": true
-			"tfc:lobster": true
-			"tfc:salmon": true
+			"tfc:panda": true
 			"tfc:lake_trout": true
-			"minecraft:villager": true
+			"tfc:direwolf": true
+			"tfc:lion": true
+			"tfc:alpaca": true
+			"tfc:smallmouth_bass": true
 			"tfc:pheasant": true
+			"tfc:jellyfish": true
+			"minecraft:husk": true
+			"tfc:musk_ox": true
+			"tfc:lobster": true
+			"tfc:chicken": true
+			"minecraft:villager": true
+			"minecraft:horse": true
+			"tfc:tiger": true
+			"tfc:boar": true
+			"tfc:cow": true
+			"tfc:pufferfish": true
+			"tfc:crappie": true
+			"tfc:wildebeest": true
+			"minecraft:pig": true
+			"tfc:gazelle": true
+			"tfc:moose": true
+			"minecraft:cat": true
 			"tfc:cod": true
+			"tfc:salmon": true
+			"minecraft:creeper": true
+			"tfc:crayfish": true
+			"minecraft:zombie": true
+			"tfc:donkey": true
+			"tfc:goat": true
+			"tfc:rainbow_trout": true
+			"tfc:sheep": true
+			"minecraft:skeleton": true
+			"tfc:duck": true
+			"tfc:tropical_fish": true
+			"minecraft:slime": true
+			"tfc:bison": true
+			"tfc:isopod": true
+			"cobblemon:pokemon": true
+			"tfc:black_bear": true
+			"tfc:turtle": true
+			"tfc:wolf": true
+			"tfc:squid": true
+			"tfc:polar_bear": true
+			"tfc:deer": true
+			"minecraft:sheep": true
+			"tfc:grouse": true
+			"tfc:horse": true
+			"tfc:rabbit": true
+			"tfc:orca": true
+			"tfc:peafowl": true
+			"tfc:largemouth_bass": true
+			"minecraft:bee": true
+			"tfc:yak": true
+			"minecraft:spider": true
+			"tfc:fox": true
+			"tfc:turkey": true
+			"minecraft:drowned": true
+			"tfc:bluegill": true
+			"tfc:quail": true
+			"tfc:sabertooth": true
+			"tfc:frog": true
+			"tfc:bongo": true
+			"minecraft:enderman": true
+			"tfc:dolphin": true
+			"tfc:grizzly_bear": true
+			"tfc:crocodile": true
+			"tfc:manatee": true
+			"tfc:horseshoe_crab": true
+			"minecraft:cow": true
+			"tfc:octopoteuthis": true
+			"tfc:pig": true
+			"tfc:caribou": true
+			"tfc:ocelot": true
+			"minecraft:bat": true
 		}
 		
 		# Minimap font scaling (values not a multiple of 0.5 may look bad)
@@ -213,7 +226,6 @@
 		# Default: ["ftbchunks:fps", "ftbchunks:game_time", "ftbchunks:real_time", "ftbchunks:debug"]
 		info_hidden: [
 			"ftbchunks:fps"
-			"ftbchunks:game_time"
 			"ftbchunks:real_time"
 			"ftbchunks:debug"
 		]
@@ -272,7 +284,7 @@
 		# Changes the maps X offset from it's origin point. When on the Left, the map will be pushed out from the left, then from the right when on the right.
 		# Default: 0
 		# Range: -∞ ~ +∞
-		position_offset_y: 0
+		position_offset_y: 60
 		
 		# Size minimap proportional to screen width (and scale)
 		# Default: true
