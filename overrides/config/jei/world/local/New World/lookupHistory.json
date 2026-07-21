@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"firmalife:fruit_leaf"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:deepslate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"cobblemon:poke_snack"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

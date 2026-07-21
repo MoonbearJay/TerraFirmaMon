@@ -3,14 +3,16 @@
     "MinHPForBattle": 1.0
   },
   "InPokemonBattle": {
-    "MinHPForCapture": 0.2,
+    "MinHPForCapture": 0.5,
     "BonusCatchRate": 0.0,
+    "ReturnBallOnFail": true,
     "AllowMasterBall": true,
     "AllowOriginBall": true,
     "AllowQuickBall": true,
     "AllowSafariBall": false
   },
   "General": {
+    "StartOnLevel": 1,
     "WorldBlacklist": [],
     "DimensionBlacklist": [],
     "PokemonBlacklist": [],

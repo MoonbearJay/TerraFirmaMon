@@ -1,0 +1,10 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"pneumaticcraft:reinforced_stone"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:reinforced_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:air_compressor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:compressed_bricks"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:ingot_iron_compressed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:pressure_chamber_wall"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"pneumaticcraft:aerial_interface"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

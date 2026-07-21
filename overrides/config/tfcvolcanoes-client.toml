@@ -2,7 +2,7 @@
 	#Show volcano particle effects.
 	showVolcanoParticles = true
 	#Enable screen shake during tremors
-	enableScreenShake = true
+	enableScreenShake = false
 	#Enable transparency for particles such as volcano smoke, smoke trails etc.
 	enableAlphaForParticles = true
 	#The altitude in blocks at which smoke particles will rise to.

@@ -53,7 +53,7 @@
 		# Range: > 1
 		waterwheelSourceRange = 64
 		#When enabled boosted waterwheels require correct flow (like in TerraFirmaCraft's water river)
-		waterwheelsSourceRequiresFlow = false
+		waterwheelsSourceRequiresFlow = true
 
 ##Windmill requirements
 [windmills]

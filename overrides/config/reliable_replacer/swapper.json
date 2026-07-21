@@ -1,0 +1,15 @@
+[
+  {
+    "inputs": [
+      "minecraft:bee_nest"
+    ],
+    "output": "firmalife:wild_beehive"
+  },
+  {
+    "inputs": [
+      "lootrmon:gilded_chest"
+    ],
+    "output": "cobblemon:gimmighoul_chest",
+    "probability": 0.5
+  }
+]

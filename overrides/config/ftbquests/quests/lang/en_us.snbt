@@ -1,0 +1,427 @@
+{
+	chapter.3B61B0D5BBB6B4C9.title: "Getting Started in TerraFirmaCraft"
+	quest.00773DB20353D622.quest_desc: [
+		"Vein Graphite can only be found in quartzite, schist, gneiss, and marble rocks, in elevations below y=60."
+		""
+		"Use a prospector pick to search for underground graphite deposits."
+		""
+		"Graphite also contains Bituminous Coal veins, if you discover one you will also find significant amounts of graphite"
+	]
+	quest.037F184C26A10FC1.quest_desc: [
+		"Drop 1 log and 3 sticks onto the same surface. Use a firestarter to light the pile and create a firepit. Be mindful of your surroundings, as fire can easily spread from a firepit to flammable objects and blocks nearby."
+		""
+		"If you pick up your items instead of lighting them, try starting the firestarter on another surface, then quickly moving it to the pile of items before it completes. See the TFC Guide for additional tips on creating and using firepits."
+		"{image:tfc:textures/item/firepit.png width:20 height:20 align:1}"
+		"acceptable fuel is all types of wood but also sticks, tree seeds/saplings or bark"
+	]
+	quest.076B015F607B70B1.quest_desc: ["A bellows blowing over a forge will raise its temperature to brilliant white. Pottery, and some metals and alloys require higher temperatures."]
+	quest.07DA482BC9E86FC2.quest_desc: [
+		"The first anvil is made out of stone. To make an anvil, find a block of raw igneous rock and use a hammer on the top. To harvest raw stone blocks, remove all adjacent blocks touching raw, unhardened stone."
+		"The world's ores and stone are detailed in your TFC Guide, and you can also see the igneous rocks in JEI if you search for ''$igneous''."
+	]
+	quest.07DA482BC9E86FC2.title: "Stone Anvil"
+	quest.0805DD141158FB98.quest_desc: ["Sandwiches are a meal made using flatbread or bread, and any combination of cheeses, cooked meat, and vegetables."]
+	quest.0805DD141158FB98.title: "Sandwiches"
+	quest.08C3D1D2B28A8D8B.quest_desc: ["With grains and seeds you can domesticate many animals (alpacas, chickens, cows, donkeys, ducks, goats, horses, mules, musk oxen, pigs, quails, sheep, and yaks). Domesticating animals unlocks access to eggs, milk, wool, and the products of the butchery system."]
+	quest.08C3D1D2B28A8D8B.title: "Livestock"
+	quest.0A5504B2E07129CE.quest_desc: ["Use a crucible to cast ingots and metal alloys faster than in vessels."]
+	quest.0A5504B2E07129CE.title: "Crucible"
+	quest.0AA3B337BB87678D.quest_desc: ["The fishing rod can be useful for pulling creatures and corpses toward you."]
+	quest.0AA3B337BB87678D.title: "Fishing"
+	quest.0C34F9F9503F5982.quest_desc: ["In a pit made of rock or rock bricks (similar to a pit kiln), right click to place 7 charcoal. Use a firestarter to light the charcoal pile, turning it into a forge. You can use a forge filled with charcoal to heat materials, such as unfired pottery, vessels filled with ores, or unfired torches."]
+	quest.0C34F9F9503F5982.title: "Forge Charcoal"
+	quest.0CD0D07D71FB22FB.quest_desc: ["A prospector's pick will help you search for minerals and metals below the surface."]
+	quest.0CD0D07D71FB22FB.title: "Prospector's Pick"
+	quest.0D77D1891FB8D2C8.quest_desc: ["Steel items are of a superior strength."]
+	quest.0D77D1891FB8D2C8.title: "Boots"
+	quest.0D9AB19AC9858CD5.quest_desc: [
+		"Cut down a tree to get logs."
+		""
+		"You will be hurt if you attempt to punch trees, so use an axe or hatchet."
+		""
+		"Wood can be stacked on the ground. When holding a log, Shift + right click."
+	]
+	quest.0D9AB19AC9858CD5.title: "Logs"
+	quest.0D9D9BCA2DC57EF0.quest_desc: [
+		"Red and Blue tumblestones can be found generated in the world near Hot Springs and Volcanoes!"
+		"{image:cobblemon:item/tumblestone width:100 height:100 align:center}"
+		"{image:cobblemon:item/sky_tumblestone width:100 height:100 align:center}"
+		""
+		"These can be farmed on Basalt Magma Blocks."
+	]
+	quest.0DF1D3229BDA0C01.quest_desc: [
+		"Domesticated alpacas, musk oxen, and sheep produce wool that you can harvest by using shears on the animal."
+		""
+		"Wool yarn can be produced from the raw wool using a spindle."
+	]
+	quest.0DF1D3229BDA0C01.title: "Wool"
+	quest.0DFD612BF8EF6367.quest_desc: [
+		"Pick up some rocks, sticks and pick some Plant Fiber from the nearest grass."
+		"{image:tfc:textures/item/loose_rock/chalk.png width:15 height:15 align:1}"
+	]
+	quest.0DFD612BF8EF6367.title: "Materials"
+	quest.0F916A956F0265FC.quest_desc: [
+		"Planters only work inside a greenhouse. You need a watering can to water the plants."
+		""
+		"Plants growing in planters have fertilization needs just as plants growing in farmland."
+		"The crops entry in your TFC Guide gives the nutrient needs (nitrogen, phosphorus, and potassium, or N, P, and K) of each crop."
+	]
+	quest.0F916A956F0265FC.title: "Planters for Greenhouse"
+	quest.0FC34418C3A532C4.quest_desc: [
+		"Use the crafted tool head in the crafting grid. Add two ligament [raw plant strings] to create a stone knife."
+		"{image:tfc:textures/item/stone/knife_head.png width:15 height:15 align:1}"
+	]
+	quest.0FC34418C3A532C4.title: "Stone Knife"
+	quest.10480FD6F0EE8181.quest_desc: [
+		"The cellar is a multiblock building for storing food. Certain types of food can be put inside food shelves or hangers to preserve the contents even longer longer than in vessels. Cheese wheels can be aged inside the cellar."
+		"Your TFC Guide explains cellars in the Firmalife section."
+	]
+	quest.10480FD6F0EE8181.title: "Cellar"
+	quest.1124CE75F3E2D185.quest_desc: [
+		"Use a log and the saw in the crafting grid to create lumber."
+		""
+		"with lumber you make many new items And the most important is the crafting table"
+	]
+	quest.1124CE75F3E2D185.title: "Lumber"
+	quest.11D50560F468218E.quest_desc: ["Hunt animals to harvest raw hides, which can be processed into leather. Soak a hide in limewater within a barrel. Place the soaked hide on a log block, then use a knife to scrape all of the hide."]
+	quest.11D50560F468218E.title: "Hunting"
+	quest.13C6B5603AB4A496.quest_desc: [
+		"Everything is here - all the knowledge about the world in which you hope to survive, what you will encounter in it, and how to survive it. Read as much as possible to avoid mistakes, dangers, and pitfalls of knowledge. If you haven't already, start with the quest section called ''Important.''"
+		""
+		"You can also find this information on webpage - terrafirmacraft.github.io/Field-Guide"
+	]
+	quest.13C6B5603AB4A496.quest_subtitle: "in your Inventory on the right side there are several tabs including the book TerraFirmaCraft - powerful knowledge for survival"
+	quest.13C6B5603AB4A496.title: "Everything is Here"
+	quest.15D5D5E7100231B9.quest_desc: ["From jute fibers you can create leads, and burlap cloth."]
+	quest.15D5D5E7100231B9.title: "Jute"
+	quest.15E5F6C4023AD269.quest_desc: ["A red steel anvil produces amazingly useful items and armors."]
+	quest.18477940F29BD7F5.quest_desc: ["It's time to justify the bloomery, and finally upgrade to iron."]
+	quest.18477940F29BD7F5.title: "Wrought Iron"
+	quest.1B2D76709D5282BA.quest_desc: [
+		"Your first protective armor will likely be made of copper, worked on an anvil made of copper or one of the harder metals."
+		""
+		"A skilled smith strives to forge metal tool or armor piece with as few hits as possible, resulting in items of higher quality."
+	]
+	quest.1B2D76709D5282BA.title: "Shield"
+	quest.1B85F7093AC663D7.quest_desc: [
+		"Be on the lookout for wild crops as you explore. These may only yield their produce and seeds once, but you can plant the seeds on farmland to grow new crops."
+		""
+		"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
+	]
+	quest.1B85F7093AC663D7.title: "Wild Crops"
+	quest.1C968E0159A0C714.quest_desc: [
+		"You can weld two copper ingots together on a stone anvil. You'll use these double ingots to make a copper anvil."
+		""
+		"Your TFC Guide explains how to weld metal items in the Anvils entry."
+	]
+	quest.1C968E0159A0C714.title: "Double Copper Ingot"
+	quest.1F6624B6C5A9FB61.quest_desc: [
+		"Making a torch starts by crafting an unlit torch out of sticks and fibers. You can cook unlit torches in a firepit or forge to turn them into torches."
+		""
+		"Alternatively, you can use a torch, firestarter, or flint and steel on a placed unlit torch to turn it back into a torch."
+	]
+	quest.1F6624B6C5A9FB61.title: "Torches"
+	quest.1F69262B05453390.quest_desc: ["Now that you've got access to Wrought Iron, im sure your party is full of powerful pokemon! how about somewhere to store em?"]
+	quest.1FEDE6939702C8AB.quest_desc: ["While a bronze anvil is good, progressing to steel requires an iron anvil."]
+	quest.2222CCF6A21B0E45.quest_desc: ["A blast furnace is a large multiblock structure that steps you into the age of steel. Like the bloomery, you will need to study the TFC Guide to build it."]
+	quest.24EAAA5C0DDFB14E.quest_desc: ["A chisel is a stoneworking tool used to decorate blocks and cut stone."]
+	quest.24EAAA5C0DDFB14E.title: "Chisel"
+	quest.2544BAE1DA34AFA7.quest_desc: ["You get charcoal by burning encased log piles. You can learn more about how this is done in the TFC Guide under Advanced Mechanics and Charcoal Pit, or by looking at charcoal in JEI while holding Shift."]
+	quest.26515677B3118AEA.quest_desc: ["Copper is the basis for many alloys, like the very useful bronze. Basic bronze, bismuth bronze and black bronze all make better tools and armors, and importantly, the bloomery."]
+	quest.26515677B3118AEA.title: "Alloys"
+	quest.29C25FA36FA95BDB.quest_desc: ["Blue is better"]
+	quest.2BC58239A8706187.quest_desc: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone javelin."]
+	quest.2BC58239A8706187.title: "Stone Javelin"
+	quest.2C1F40C6E45C5388.quest_desc: ["The blast furnace produces pig iron, which can be refined into steel. The TFC Guide will tell you how it's done."]
+	quest.2C1F40C6E45C5388.quest_subtitle: "Unlock the next stage - Steel"
+	quest.2C1F40C6E45C5388.title: "Steel"
+	quest.2DB43046BD0FCBD6.quest_desc: [
+		"The TFC Guide, under Getting Started, and Pottery, explains much of what you need to know about finding clay. To preview clay's indicator plants, search ''$indicator'' in JEI."
+		"{image:tfc:textures/block/plant/athyrium_fern/double.png width:40 height:40 align:1}"
+	]
+	quest.2DBF3055A06275F6.quest_desc: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone shovel."]
+	quest.2DBF3055A06275F6.title: "Stone Shovel"
+	quest.2DC7464E06328310.quest_desc: ["Working steel ingots into tools and items requires an anvil made of steel."]
+	quest.30C84DB4AB1BEBDB.quest_desc: [
+		"Craft a hammer, you will need it in the next quest to create your first anvil, you can use a stone or metal hammer"
+		""
+		"Hammer is the most important tool in blacksmithing, but also for crushing and processing ore."
+	]
+	quest.30C84DB4AB1BEBDB.title: "Hammer"
+	quest.32DCF95585240FAB.quest_desc: [
+		"A toolrack allows you to hang and store your tools."
+		""
+		"See also other advanced tool racks, self potions, and book shelfs"
+	]
+	quest.32DCF95585240FAB.title: "Tool Rack"
+	quest.333CDC2BBF41A474.quest_desc: ["Delicious and fragrant bread can be cut into slices to maximize your grain's nutrition."]
+	quest.333CDC2BBF41A474.title: "Bread"
+	quest.33DCE04D03E2B0E2.quest_desc: [
+		"2 logs and a saw in the crafting grid will create supports.   When mining and extracting underground minerals, it will be important to support the ceilings with beams. Support beams can be used to make a simple multiblock structure. If properly constructed, blocks within range of the structure's horizontal beam will not be affected by gravity and will not cause a cave-in."
+		""
+		"In the Advanced Mechanics section, the TFC Guide fully explains the use of support beams."
+	]
+	quest.33DCE04D03E2B0E2.title: "Support Beams"
+	quest.35A0FD7BE9CC7EFF.quest_desc: [
+		"Composting is a way to make fertilizer from an equal mix of green and brown organic materials, whether rotten or fresh."
+		"The type of organics you'll need for fertilizer can be found with a JEI search for ''$green'' and ''$brown''."
+		""
+		"Your TFC Guide also has important information on composters."
+	]
+	quest.379795FD828D8056.quest_desc: [
+		"Make a quern and a handstone out of smooth and raw rock. A quern is a hand-cranked millstone used to grind grains, ores, rocks, and other materials."
+		""
+		"In order to obtain a raw rock block without breaking it into smaller rocks, it needs to be extracted. You must mine the blocks on all six sides of a raw rock block - once it is surrounded by air on all sides - it will pop off as a item which can be picked up."
+	]
+	quest.379795FD828D8056.title: "Millstone"
+	quest.3799FC2F8A137AFC.quest_desc: ["A cast iron grill is placed on a campfire. You can grill two items at a time on this grill, or five at a time on a wrought iron grill. Grilled food lasts slightly longer than if cooked without a grill."]
+	quest.3799FC2F8A137AFC.title: "Cast Iron Grill"
+	quest.39F9D2F52D44E27C.quest_desc: ["Barrels are extremely useful for holding and transporting fluids."]
+	quest.39F9D2F52D44E27C.title: "Barrel"
+	quest.3E27CBA24A6D9B18.quest_desc: ["Fish are a good source of protein when land animals cannot be found. With your javelin in hand, brave the rivers for fish, or the oceans for lobster."]
+	quest.3E27CBA24A6D9B18.title: "Fish"
+	quest.3EB671D6CFA2DABF.quest_desc: ["Equines are useful animals for transportation. A domesticated donkey or a mule can be fitted with a chest or barrel, and a horse or a mule can be fitted with a saddle for riding."]
+	quest.3EB671D6CFA2DABF.title: "Horse Riding"
+	quest.405C29535CFEC9B8.quest_desc: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone axe."]
+	quest.405C29535CFEC9B8.title: "Stone Axe"
+	quest.407466A351B80092.quest_desc: ["Similar to bronze but softer, brass is an alloy of copper, made in a vessel or crucible."]
+	quest.407466A351B80092.title: "Brass Mechanisms"
+	quest.4285296DE20480FA.quest_desc: ["Bees produce beeswax, which is used to seal materials, which is especially needed to build the cellar and greenhouse. Bees can also bring nutrients to greenhouse plants and produce honey."]
+	quest.4285296DE20480FA.title: "Bees!"
+	quest.46B21F5A218AF0B6.quest_desc: ["Bronze is a harder material, and makes for more durable items."]
+	quest.46B21F5A218AF0B6.title: "Armor"
+	quest.479A5B911B11F7DE.quest_desc: [
+		"Mud bricks are a simple and available building material."
+		""
+		"Lowlands provide a huge supply of mud and grass, perfect for making mud bricks. In other biomes, you can craft a bucket of water and dirt blocks together to make your own mud."
+		""
+		"Place the wet mud bricks on the ground to dry them out. You can craft mud brick blocks using dried mud bricks."
+	]
+	quest.479A5B911B11F7DE.title: "First Materials"
+	quest.47E0A369AD9607DF.quest_desc: [
+		"Soup and salad are excellent ways to turn early crops into nutritious meals."
+		"Soup is made by boiling water in a pot placed on a firepit. The pot is filled with vegetables and meats."
+		"Salad can be mixed by Shift-right clicking with a bowl in hand."
+		""
+		"the pot now allows you to purify water - use simple recipes for herbal water, boiling water or purified water"
+	]
+	quest.47E0A369AD9607DF.title: "More Cookware"
+	quest.4B6471BDD35D04F0.quest_desc: ["Work double ingots into wrought iron sheets. Metallurgy requires patience and long work at the anvil."]
+	quest.4B6471BDD35D04F0.title: "Wrought Iron Sheet"
+	quest.4BB590DEC29482B7.quest_desc: ["You can make an uncomfortable, basic bed by placing a large haw hide (from Miltank, bears, etc.) on the top of two thatch blocks."]
+	quest.4BB590DEC29482B7.title: "Thatch Bed"
+	quest.4C5E4EC4557B273F.quest_desc: ["Iron is even more durable than bronze, and so tools and armor made of iron are longer-lasting."]
+	quest.4C5E4EC4557B273F.title: "Leggings"
+	quest.4CFDC0DB94D96A9D.quest_desc: [
+		"A bloomery is a multiblock structure where iron is smelted with coal to make a raw iron bloom. This complicated process will require studying the bloomery, "
+		""
+		"The bloomery consumes 1 Charcoal powder, and 100 mB of Cast Iron to produce one Bloom. After filling the bloomery with a combination of Charcoal and Ores/Pellets/Briquets of Iron light the bloomery block, and wait 15 hours for the bloomery to smelt. When the bloomery shuts off, it leaves behind a Bloom block. This contains Raw Iron Blooms which can be obtained by mining the Bloom repeatedly with a pickaxe."
+	]
+	quest.4CFDC0DB94D96A9D.title: "Bloomery"
+	quest.4D412159C87AA1A0.quest_desc: [
+		"you can use the rocks you found around you to build the first tool heads"
+		"{image:tfc:textures/item/loose_rock/chalk.png width:15 height:15 align:1}"
+		""
+		"Either knapp 2 stones together and draw the correct pattern, or"
+		"find a hardened raw stone and then pound the rock until you get the tool head."
+	]
+	quest.4D412159C87AA1A0.title: "Knapping System"
+	quest.51AF7E0B3C4B6E16.quest_subtitle: "the start of something CREATE-ive"
+	quest.5200C33550CECCAE.quest_desc: ["The earliest metal tools are made of copper or one of the three bronze alloys, melted in a vessel then poured into a mold. To get this material, you'll need to wash gravel or deposit blocks with a pan. Small ores are more efficiently processed using a hammer and sluice to get powders, but even these small ores can be combined to make molten metals."]
+	quest.5200C33550CECCAE.title: "Collecting Copper"
+	quest.52D289D761CD3327.quest_desc: [
+		"Unfired ceramics are fired in a pit kiln. In a hole surrounded by nonflammable blocks, place the unfired items (press V to place). When you're finished, right click 8 straw on the items to cover them, and cover the straw with 8 logs."
+		""
+		"Using a firestarter, light the logs on top. When the fire goes out, the fired pottery will be left in the pit."
+		""
+		"Remember that if you touch hot objects in your hand, you will get burned. Hold the Tongs in one hand to protect yourself from getting burned."
+	]
+	quest.52D289D761CD3327.title: "Pit Kiln"
+	quest.55CF250954785D87.quest_desc: ["Copper is too soft a material for working bronze and iron."]
+	quest.55CF250954785D87.title: "Bronze Anvil"
+	quest.57D430D6E8E704E8.quest_desc: ["Slather some of that honey on a Saccharine Tree (Right click with a jar of honey) and you'll boost the chances of a pokemon with its Hidden Ability spawning!"]
+	quest.57D430D6E8E704E8.title: "Slatherin' Logs"
+	quest.59400C3A5CFA2257.quest_desc: ["Your birds must have nest boxes to lay eggs."]
+	quest.59400C3A5CFA2257.title: "Eggs"
+	quest.5C53DDA65B523AC4.quest_desc: ["A comesticated female cow, goat, or yak will let you use a bucket on her to harvest milk."]
+	quest.5C53DDA65B523AC4.title: "Milk"
+	quest.5E5E8454427B4FA2.quest_desc: ["Sluicing gravel and ore deposits will grant you a range of resources, but most importantly, Ore Powder / Ore Deposits!"]
+	quest.5E5E8454427B4FA2.title: "Sluice"
+	quest.6008C5503E02A997.quest_desc: ["A jug is the first vessel in which you can carry water for drinking."]
+	quest.6008C5503E02A997.title: "Drinking Water"
+	quest.61CD79B84D7A7512.quest_desc: [
+		"There are several ways to get honey, either through normal FirmaLife beekeeping, or through cobblemon's combee! "
+		""
+		"Look out for Saccharine Trees, these tree's leaves can be polinated by combee to produce honey! just use a TFC Jar on the polinated leaves to collect it!"
+		""
+		""
+		"{image:cobblemon:block/wood/saccharine_leaves_dripping width:100 height:100 align:center}"
+		""
+		"This honey can be used in a variety of recipes, including cobblemon cooking!"
+	]
+	quest.61E9A1E4ED07CA6A.quest_desc: [
+		"Maybe even somewhere to DISPLAY your pokemon? "
+		""
+		"maybe even have certain pokemon do tasks for you? "
+	]
+	quest.61E9A1E4ED07CA6A.quest_subtitle: "Not just for decoration!"
+	quest.62490EF188C6A5D2.quest_desc: ["Now get out there and catch em' all!"]
+	quest.62490EF188C6A5D2.title: "Your First Pokeball(s)!"
+	quest.650BB600A046C4E9.quest_desc: [
+		"Kaolin can be found spawning at high altitudes in Plateaus, Old Mountains, and Highlands, Vulcanic biomes at a temperature of at average 18°C, with a rainfall of at least 300mm. The Blood Lily flower grows on Kaolin clay indicating the occurrence of this kaolin clay."
+		""
+		"Alternatively, it can be found in certain Ruins!"
+	]
+	quest.68B9272FD20BB22C.title: "Apricorns!"
+	quest.68DC32CE4CE4B4F1.quest_desc: [
+		"As you explore, be on the alert for strange mineral samples on the surface. These only appear above a large underground ore deposit of the same mineral. When you return with a pickaxe and a dream, you'll thank yourself for marking where you found these samples."
+		""
+		"To extract the ores from underground the surface, you'll need a pickaxe. Don't forget to use support beams underground to prevent dangerous cave-ins. To efficiently process the acquired raw materials, you'll need a hammer, a sluice, and a quern."
+		""
+		""
+		"In the TFC Guide, in The World section you'll find information about ores and minerals, and where to find them."
+		""
+	]
+	quest.68DC32CE4CE4B4F1.quest_subtitle: "Unlocked first tips"
+	quest.68DC32CE4CE4B4F1.title: "First Ores - First Mine"
+	quest.6BB8281464F3DD68.quest_desc: [
+		"A greenhouse is a multiblock building that protects your growing plants from inhospitable conditions. It has other benefits, like producing seeds and propagating new bushes. Better tiers of greenhouse allow more species to be grown."
+		""
+		"Your TFC Guide explains greenhouses in the Firmalife section."
+	]
+	quest.6BB8281464F3DD68.title: "Greenhouse"
+	quest.6DD24365D4289F9E.quest_desc: ["Casting channels connect a crucible and mold tables. Liquids in the crucible are poured by right clicking the channel. Mold tables hold molds, and when the liquid metal fills the mold and cools, a hopper under the mold table can draw out the solid item. With a large enough setup, you could pour a filled crucible to ingots with a single click."]
+	quest.6DD24365D4289F9E.title: "Mold Table"
+	quest.6E4AFEEE95DF99A8.quest_desc: [
+		"Create farms to stock up on food for the winter."
+		"{image:tfc:textures/block/crop/wheat_6.png width:20 height:20 align:1}"
+		"Use a hoe on the surface of a dirt block to plow it into farmland. On this, you can plant the seeds you've collected from sieving and from wild crops."
+		"You can add fertilizers to farmland (nitrogen, phosphorus, and potassium, or N, P, and K) to increase the yield of your crops."
+	]
+	quest.6E4AFEEE95DF99A8.title: "Farm"
+	quest.6FCF5A9819C15FCA.quest_desc: [
+		"To make your first tools, you will need molds and molten metal. Store between 100 and 300 mB of copper material in a vessel, then heat it in a pit kiln or forge. Quickly, before the molten metal cools to a solid, open the vessel and insert a mold to fill it. Craft the filled mold to retrieve the tool part. A saw or pickaxe head mold requires 100 mB (one ingot) of metal."
+		""
+		"Remember that if you touch hot objects in your hand, you will get burned. Hold the Tongs or potholder in offhand to protect yourself from getting burned."
+		""
+		"The TFC Guide explains how to make primitive alloys, allowing you to start with bronze tools, if you have the materials."
+	]
+	quest.6FCF5A9819C15FCA.title: "Starting Tools"
+	quest.70FFB7289674431E.quest_desc: ["You'll need many metals as you progress, starting out, you'll want to look for surface level ores, small deposits littering the ground."]
+	quest.70FFB7289674431E.title: "Small Ore Pieces"
+	quest.7100C2D63A7D4AE1.quest_desc: [
+		"loom will allow you to weave materials from threads and fibers"
+		""
+		"if you took care of jute or wool, weave cloths and from them clothes and other items like a bed. "
+	]
+	quest.7100C2D63A7D4AE1.title: "Loom"
+	quest.73296BC5B8AD845D.quest_desc: ["Use the crafted tool head in the crafting grid. Add a stick and a ligament [string] to create a stone hoe."]
+	quest.73296BC5B8AD845D.title: "Stone Hoe"
+	quest.764D66E674DA77C1.quest_desc: [
+		"The field guide allows you to scan Cobblemon and see what they drop*, as well as record their dex entry, just by looking at them!"
+		""
+		"Optionally you can also use a spyglass to record this data as well."
+		""
+		"in the future you'll be able to see what biomes they spawn in, and reseach berries / their effects as well!"
+		""
+		""
+		"*note not all of these are accurate as of 1.0.0"
+	]
+	quest.764D66E674DA77C1.title: "The Early Game Pokedex"
+	quest.782535AE2AEC01E0.quest_desc: ["Firmalife's cheesemaking requires rennet and cheesecloth for making curd, no milk vinegar required. Curd is then turned into versatile cheese wheels. No sandwich is complete without a slice of cheese!"]
+	quest.782535AE2AEC01E0.title: "Cheesemaking"
+	quest.78680C14017852A4.quest_desc: ["A stone anvil is very limited. To progress to forging better products with better metals, you'll need a metal anvil."]
+	quest.78680C14017852A4.quest_subtitle: "unlock new TIPS link"
+	quest.78B1F97CEB7AAD71.quest_desc: ["Advanced anvils unlock new items, armors, and tools."]
+	quest.78B1F97CEB7AAD71.quest_subtitle: "Black is black"
+	quest.78C50987CA923CE1.quest_desc: ["Use clay balls to craft unfired ceramics. This process is very similar to rock knapping."]
+	quest.78C50987CA923CE1.title: "Ceramics"
+	quest.7C3122B497816D3A.quest_desc: [
+		"The oven is an excellent way to cook various food. Oven-baked bread is a more efficient way to use grains to make sandwiches than flatbread."
+		""
+		"Use a peel to avoid taking damage from the heat."
+	]
+	quest.7C3122B497816D3A.title: "Oven"
+	quest.7D5D736E510313F1.quest_desc: [
+		"Create a metal cooking pot for making richer dishes."
+		""
+		"Place the cooking pot on top of a firepit or oven to provide the pot with heat."
+	]
+	quest.7D5D736E510313F1.title: "Farmer's Delight"
+	task.01724012B8534791.title: "cloth"
+	task.01BB58FE0D1DF9EB.title: "Any #tfc:shields"
+	task.03B30A9D2B0588E6.title: "Lumber"
+	task.05256E857A8D6583.title: "Any #tfc:salads"
+	task.063E8F8BDEEF580E.title: "Any #tfc:prepared_hides"
+	task.06BD1BFB30108A79.title: "prospector drill"
+	task.08CAB69FAB41B243.title: "Any #tfc:mob_leg_armor"
+	task.0AA2BE9B17DEB13F.title: "Any #tfc:mob_chest_armor"
+	task.0B97C379BF65DC9C.title: "Any #tfc:mob_head_armor"
+	task.0C5595FEC913C4D6.title: "grains"
+	task.11B34458370C8432.title: "gravel ore deposit"
+	task.12959004B0C8AF28.title: "Soaked hide"
+	task.169E71A9A854AD04.title: "Any #tfc:bronze_anvils"
+	task.191B48A3EC81ED24.title: "Any #tfc:finish_hides"
+	task.19C9C7BD959D8C7B.title: "rocky chunks"
+	task.1ADBFA1796353812.title: "stone head javelin"
+	task.1BA89F3BF5FCF58E.title: "double workbench"
+	task.1C144A4808AB44D2.title: "Any #tfc:soups"
+	task.1E4A17D8CF1DE527.title: "ore pieces"
+	task.2038281730CEC91C.title: "Stone hoe"
+	task.22EABE43B6FE52F3.title: "propick"
+	task.235F37DE81D23A1E.title: "shelves"
+	task.241594CB984E2B91.title: "prospector hammer"
+	task.28184AFA43EB2C7A.title: "stone head knife"
+	task.2AEA1D791D27BF60.title: "Any #forge:food/diary/curd"
+	task.2CA77B8F4F131F80.title: "chunks"
+	task.2DA380A2E13272DE.title: "mud brick"
+	task.3438DEC341C204CA.title: "tool rack"
+	task.379CADC2844CACE9.title: "Planks"
+	task.38B2834BE2B638D6.title: "crude arrow"
+	task.39403A6282EE1563.title: "Any #tfc:oiled_hides"
+	task.3A892A6B6CC2CD60.title: "Saw"
+	task.3AC76FEB971CF2EF.title: "Any #tfc:sandwiches"
+	task.3C959AA839606172.title: "create tongs"
+	task.3CEF4C49B5A6826D.title: "Pickaxe"
+	task.3D9380985C49D54E.title: "Any #forge:shears"
+	task.4640082DBB79113B.title: "Any #forge:fishing_rods"
+	task.473715A783D4B5A3.title: "Stone shovel"
+	task.4A70F181748E4BAC.title: "stone head shovel"
+	task.4AD0360A8EC781D6.title: "barrel"
+	task.4B00D2BE75CC49E9.title: "Scraped hide"
+	task.4B44B0E9C162EE7A.title: "bread"
+	task.4BC2CA1A49257D34.title: "hammer"
+	task.4C713C1D332CDA8F.title: "workbench"
+	task.4D2F0262455D2439.title: "Any #forge:ingots/allbronze"
+	task.4D3BAB86FDE23A1B.title: "Any #forge:double_sheets/any_bronze"
+	task.4E185D4646389BC5.title: "raw stones"
+	task.4FF58D412970905A.title: "rocks"
+	task.50BCE0B85F3BFCD4.title: "seeds"
+	task.50F5DE4FABF8F0DB.title: "hangers"
+	task.5498F51BD40ECF2E.title: "Stone Javelin"
+	task.59FE00EED0C20996.title: "Raw hide"
+	task.5AC82C7AAA5EF5D0.title: "Ore nugget"
+	task.5AFA90D2C2C8BFAA.title: "stone head axe"
+	task.5CC7788F83795987.title: "Any #forge:shears"
+	task.5D31A2C088CF45CF.title: "chisel"
+	task.5DE8D08730EBA9AD.title: "Any #tfc:lamps"
+	task.5F656266D62D9D35.title: "Any #minecraft:fishes"
+	task.6095E5D359659717.title: "cheese wheels"
+	task.65DB7A312411FF43.title: "Any #forge:tallow_source"
+	task.676E2911F2CFA0C2.title: "Raw hide"
+	task.699A5812D980936F.title: "Clay"
+	task.6C7A9CA9497D33D2.title: "workbench"
+	task.6D2C92A2690C0305.title: "mud"
+	task.6DCDD83B5C7BA055.title: "clean dust"
+	task.6F9E047273123A5F.title: "Stone Knife"
+	task.70B999FCB107A1AA.title: "dirty dust"
+	task.72E0B95FFA0C80FC.title: "sluice"
+	task.72F0248039D9027B.title: "Sticks"
+	task.74ADB2F0526A79B8.title: "beams"
+	task.75CD28F9CCB7FBF7.title: "mineral prospector"
+	task.764422F5E8A1913F.title: "Any #tfc:tanned_hides"
+	task.788720051F833F90.title: "loom"
+	task.7A0B557D8E3A6E37.title: "stone axe"
+	task.7AB931CE05EF3A31.title: "stone head hoe"
+	task.7B5611D9934A6677.title: "logs"
+}

@@ -40,7 +40,7 @@
 	# TFC will try and infer metals from tags that match the pattern 'c:type/...', where 'type' is one of 'ingots' or 'double_ingots'
 	# These will be used to determine what metal is an item for the purpose of rendering it in an ingot pile
 	# This is a list of tag names (not including the 'c' namespace), that look like the above (so i.e. 'ingots/not_a_real_metal') that should not be included
-	"" = []
+	inferredMetals = []
 
 	[blocks.farmland]
 		#
@@ -74,15 +74,20 @@
 		# [Requires MC Restart] If snow will slow players that move on top of it similar to soul sand or honey.
 		enableSnowSlowEntities = true
 		#
-		# The chance that snow will accumulate during a storm. Lower values = faster snow accumulation, but also more block updates (aka lag).
-		# Default: 20
-		# Range: > 1
-		snowAccumulateChance = 20
+		# [Requires MC Restart] The maximum number of snow blocks that can be placed when entering an unloaded chunk. Lower values = matches nearby loaded chunks better, but more lag when entering these chunks.
+		# Default: 64
+		# Range: 0 ~ 256
+		snowMaxAccumulationOnUpdate = 64
 		#
-		# The chance that snow will melt during a storm. Lower values = faster snow melting, but also more block updates (aka lag).
-		# Default: 36
+		# [Requires MC Restart] The number of game ticks between attempts at snow accumulation. Lower = faster accumulation, but more lag. Default: 80 Vanilla: 16
+		# Default: 80
 		# Range: > 1
-		snowMeltChance = 36
+		ticksPerSnowAccumulation = 80
+		#
+		# [Requires MC Restart] How many times faster snow should melt than accumulate. Default: 3
+		# Default: 3
+		# Range: > 1
+		snowMeltMultiplier = 3
 
 	[blocks.plants]
 		#
@@ -147,36 +152,36 @@
 
 	[blocks.torch]
 		#
-		# Number of ticks required for a torch to burn out (1000 = 1 in game hour = 50 seconds), default is 72 hours. Set to -1 to disable torch burnout.
-		# Default: 72000
+		# Number of ticks required for a torch to burn out (1200 = 1 in game hour = 60 seconds), default is 72 hours. Set to -1 to disable torch burnout.
+		# Default: 86400
 		# Range: > -1
 		torchTicks = 72000
 
 	[blocks.candle]
 		#
-		# Number of ticks required for a candle to burn out (1000 = 1 in game hour = 50 seconds), default is 264 hours. Set to -1 to disable candle burnout.
-		# Default: 264000
+		# Number of ticks required for a candle to burn out (1200 = 1 in game hour = 60 seconds), default is 240 hours. Set to -1 to disable candle burnout.
+		# Default: 288000
 		# Range: > -1
 		candleTicks = 264000
 
 	[blocks.dryingBricks]
 		#
-		# Number of ticks required for mud bricks to dry (1000 = 1 in game hour = 50 seconds), default is 24 hours. Set to -1 to disable drying.
-		# Default: 24000
+		# Number of ticks required for mud bricks to dry (1200 = 1 in game hour = 60 seconds), default is 24 hours. Set to -1 to disable drying.
+		# Default: 28800
 		# Range: > -1
 		mudBricksTicks = 24000
 
 	[blocks.charcoal]
 		#
-		# Number of ticks required for charcoal pit to complete. (1000 = 1 in game hour = 50 seconds), default is 18 hours.
+		# Number of ticks required for charcoal pit to complete. (1200 = 1 in game hour = 60 seconds), default is 15 hours.
 		# Default: 18000
 		# Range: > -1
 		charcoalTicks = 18000
 
 	[blocks.pitKiln]
 		#
-		# Number of ticks required for a pit kiln to burn out. (1000 = 1 in game hour = 50 seconds), default is 8 hours.
-		# Default: 8000
+		# Number of ticks required for a pit kiln to burn out. (1200 = 1 in game hour = 60 seconds), default is 6 hours.
+		# Default: 7200
 		# Range: > 20
 		pitKilnTicks = 8000
 		#
@@ -202,7 +207,7 @@
 		# Range: > 1
 		crucibleFastPouringRate = 1
 		#
-		# If true, barrels will interact with in-world automation such as hoppers on a side-specific basis.
+		# If true, crucibles will interact with in-world automation such as hoppers on a side-specific basis.
 		crucibleEnableAutomation = true
 
 	[blocks.anvil]
@@ -262,7 +267,7 @@
 
 	[blocks.composter]
 		#
-		# Number of ticks required for a composter in normal conditions to complete. (24000 = 1 game day), default is 12 days.
+		# Number of ticks required for a composter in normal conditions to complete. (28800 = 1 game day), default is 10 days.
 		# Default: 288000
 		# Range: > 20
 		composterTicks = 288000
@@ -289,7 +294,7 @@
 		# Enables the knifing of pumpkins to carve them.
 		enablePumpkinCarving = true
 		#
-		# Number of ticks required for a jack 'o lantern to burn out (1000 = 1 in game hour = 50 seconds), default is 108 hours. Set to -1 to disable burnout.
+		# Number of ticks required for a jack 'o lantern to burn out (1200 = 1 in game hour = 60 seconds), default is 90 hours. Set to -1 to disable burnout.
 		# Default: 108000
 		# Range: > -1
 		jackOLanternTicks = 108000
@@ -559,9 +564,24 @@
 		redAppleSaplingGrowthTicks = 240000
 		#
 		# Ticks required before a banana sapling can grow into a tree
-		# Default: 144000
+		# Default: 172800
 		# Range: > 0
 		bananaSaplingGrowthTicks = 144000
+		#
+		# Ticks required between fruit branch growth steps
+		# Default: 144000
+		# Range: > 0
+		fruitBranchGrowthTicks = 120000
+		#
+		# Ticks required between berry bush growth steps
+		# Default: 115200
+		# Range: > 0
+		bananaPlantGrowthTicks = 96000
+		#
+		# Ticks required for fruit blocks to bloom after being placed/picked
+		# Default: 288000
+		# Range: > 0
+		fruitPickBloomDelayTicks = 240000
 
 	[blocks.crops]
 		#
@@ -584,6 +604,16 @@
 		#
 		# If true, powder bowls will interact with in-world automation such as hoppers on a side-specific basis.
 		powderBowlEnableAutomation = true
+
+	[blocks.firebox]
+		#
+		# If true, fireboxes will interact with in-world automation such as hoppers or comparators
+		fireboxEnableAutomation = true
+
+	[blocks.bubbleColumn]
+		#
+		# If true, bubble columns will provide air to player and mobs, as in vanilla.
+		bubbleColumnProvidesAir = false
 
 	[items.smallVessel]
 		#
@@ -862,7 +892,7 @@
 		#
 		# How many ticks should different foods ignore when trying to stack together automatically?
 		# Food made with different creation dates doesn't stack by default, unless it's within a specific window. This is the number of ticks that different foods will try and stack together at the loss of a little extra expiry time.
-		# Default: 144000
+		# Default: 7200
 		# Range: > 1
 		foodDecayStackTicks = 144000
 		#
@@ -894,7 +924,7 @@
 		nutritionMaximumHealthModifier = 3.0
 		#
 		# The maximum number of ticks that a player is allowed to be intoxicated for.
-		# Default: 864000
+		# Default: 43200
 		# Range: > 1000
 		maxIntoxicationTicks = 864000
 
@@ -1224,7 +1254,7 @@
 			cowChildCount = 2
 			#
 			# Ticks until produce is ready
-			# Default: 24000
+			# Default: 28800
 			# Range: > 0
 			cowProduceTicks = 24000
 			#
@@ -1264,7 +1294,7 @@
 			goatChildCount = 2
 			#
 			# Ticks until produce is ready
-			# Default: 72000
+			# Default: 86400
 			# Range: > 0
 			goatProduceTicks = 72000
 			#
@@ -1304,7 +1334,7 @@
 			yakChildCount = 1
 			#
 			# Ticks until produce is ready
-			# Default: 23500
+			# Default: 28800
 			# Range: > 0
 			yakProduceTicks = 23500
 			#
@@ -1344,7 +1374,7 @@
 			alpacaChildCount = 2
 			#
 			# Ticks until produce is ready
-			# Default: 120000
+			# Default: 144000
 			# Range: > 0
 			alpacaProduceTicks = 120000
 			#
@@ -1384,7 +1414,7 @@
 			sheepChildCount = 2
 			#
 			# Ticks until produce is ready
-			# Default: 168000
+			# Default: 201600
 			# Range: > 0
 			sheepProduceTicks = 168000
 			#
@@ -1424,7 +1454,7 @@
 			muskOxChildCount = 1
 			#
 			# Ticks until produce is ready
-			# Default: 96000
+			# Default: 115200
 			# Range: > 0
 			muskOxProduceTicks = 96000
 			#
@@ -1454,7 +1484,7 @@
 			chickenEatsRottenFood = true
 			#
 			# Ticks until produce is ready
-			# Default: 30000
+			# Default: 36000
 			# Range: > 0
 			chickenProduceTicks = 30000
 			#
@@ -1489,7 +1519,7 @@
 			duckEatsRottenFood = false
 			#
 			# Ticks until produce is ready
-			# Default: 32000
+			# Default: 38400
 			# Range: > 0
 			duckProduceTicks = 32000
 			#
@@ -1524,7 +1554,7 @@
 			quailEatsRottenFood = true
 			#
 			# Ticks until produce is ready
-			# Default: 28000
+			# Default: 33600
 			# Range: > 0
 			quailProduceTicks = 28000
 			#

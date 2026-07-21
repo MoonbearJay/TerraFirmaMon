@@ -15,7 +15,10 @@
     "spawn_notification:coord_y": "WHITE",
     "spawn_notification:coord_z": "WHITE"
   },
-  "disabledSituations": [],
+  "disabledSituations": [
+    "spawn_notification:ultra_rare/*",
+    "spawn_notification:rare/*"
+  ],
   "disabledSegments": [],
   "disabledSegmentsBySituation": [
     {
@@ -42,5 +45,6 @@
       ]
     }
   ],
+  "ignoreSpectators": true,
   "debug": false
 }

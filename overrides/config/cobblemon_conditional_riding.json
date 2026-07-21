@@ -1,0 +1,24 @@
+{
+  "debug": false,
+  "enabled": true,
+  "messagesInHotbar": false,
+  "rulesets": {
+    "global": {
+      "enabled": true,
+      "negation": false,
+      "message": "You haven't met the requirements to ride this Pokemon yet!",
+      "rules": [
+        {
+          "itemCondition": {
+            "items": "minecraft:saddle"
+          },
+          "variant": "held_item"
+        },
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  }
+}

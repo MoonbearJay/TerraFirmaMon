@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"fieldguide:field_guide"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spyglass"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

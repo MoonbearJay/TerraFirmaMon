@@ -72,6 +72,14 @@
     "pokemon_entity": true,
     "berry_bush": true
   },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
   "immersiveengineering": {
     "multiblock_icon": true
   },
@@ -99,6 +107,7 @@
     "vat": true,
     "drying_mat": true,
     "tumbler": true,
+    "climate_station": true,
     "keg": true,
     "cheese": true,
     "shelf": true,
@@ -123,6 +132,7 @@
     "bloom": true,
     "frog": true,
     "vane": true,
+    "camel": true,
     "sapling": true,
     "rabbit": true,
     "composter": true,
@@ -149,6 +159,7 @@
     "gearbox": true,
     "axle": true,
     "chested_horse": true,
+    "power_loom": true,
     "pack_predator": true,
     "barrel": true,
     "mold_table": true,
@@ -166,8 +177,12 @@
     "candle": true,
     "jack_o_lantern": true,
     "firepit": true,
+    "trip_hammer": true,
     "anemometer": true,
     "ingot_pile": true
+  },
+  "createlowheated": {
+    "basic_burner_info": true
   },
   "supplementaries": {
     "hat_stand": true
@@ -177,5 +192,12 @@
   },
   "corpse": {
     "corpse": true
+  },
+  "item_descriptions": {
+    "block_descriptions": true,
+    "entity_descriptions": true
+  },
+  "mega_showdown": {
+    "jade": true
   }
 }
